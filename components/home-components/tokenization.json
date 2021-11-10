@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_home_components_tokenizations",
+  "info": {
+    "name": "Tokenization",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "text"
+    },
+    "Subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "SectionImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.group-title"
+    },
+    "TokenOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common-components.list-item"
+    }
+  }
+}

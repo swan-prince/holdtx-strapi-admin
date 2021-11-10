@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_components_latest_news",
+  "info": {
+    "name": "LatestNews",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.group-title"
+    },
+    "blogs": {
+      "collection": "blogs"
+    }
+  }
+}

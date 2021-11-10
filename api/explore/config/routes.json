@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/explore",
+      "handler": "explore.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/explore",
+      "handler": "explore.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/explore",
+      "handler": "explore.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_components_professional_teams",
+  "info": {
+    "name": "ProfessionalTeam",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.group-title"
+    },
+    "Text": {
+      "type": "text"
+    },
+    "team_members": {
+      "collection": "team-members"
+    }
+  }
+}

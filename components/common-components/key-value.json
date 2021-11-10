@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_common_components_key_values",
+  "info": {
+    "name": "KeyValue",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

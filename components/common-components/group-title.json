@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_common_components_group_titles",
+  "info": {
+    "name": "GroupTitle",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "BlackTitle": {
+      "type": "string",
+      "required": true
+    },
+    "GreenTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
