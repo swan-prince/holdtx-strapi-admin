@@ -137,6 +137,17 @@
         }
       },
       "type": "decimal"
+    },
+    "TabContents": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "common-components.tab-content",
+      "required": true
     }
   }
 }
