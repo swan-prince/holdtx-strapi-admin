@@ -148,6 +148,10 @@
       },
       "component": "common-components.tab-content",
       "required": true
+    },
+    "project_new_detail": {
+      "via": "project",
+      "model": "project-new-detail"
     }
   }
 }
