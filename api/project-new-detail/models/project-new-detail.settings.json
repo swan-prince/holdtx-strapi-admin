@@ -50,7 +50,7 @@
     },
     "status": {
       "type": "string",
-      "required": true,
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -59,19 +59,10 @@
     },
     "type": {
       "type": "string",
-      "required": true,
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
-        }
-      }
-    },
-    "totalPrice": {
-      "required": true,
-      "type": "integer",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
         }
       }
     },
@@ -85,7 +76,7 @@
       }
     },
     "progress": {
-      "required": true,
+      "required": false,
       "type": "integer",
       "pluginOptions": {
         "i18n": {
@@ -94,7 +85,7 @@
       }
     },
     "investors": {
-      "required": true,
+      "required": false,
       "type": "integer",
       "pluginOptions": {
         "i18n": {
@@ -104,7 +95,7 @@
     },
     "investorsDay": {
       "type": "integer",
-      "required": true,
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -113,7 +104,7 @@
     },
     "accreditedInvestors": {
       "type": "integer",
-      "required": true,
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -122,7 +113,7 @@
     },
     "costPercent": {
       "type": "decimal",
-      "required": true,
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -131,7 +122,7 @@
     },
     "interestType": {
       "type": "decimal",
-      "required": true,
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -140,15 +131,7 @@
     },
     "expirationMonth": {
       "type": "integer",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
-    },
-    "totalInversion": {
-      "type": "integer",
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -246,6 +229,14 @@
     "project": {
       "via": "project_new_detail",
       "model": "projects"
+    },
+    "price": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
     }
   }
 }
