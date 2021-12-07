@@ -237,6 +237,16 @@
         }
       },
       "type": "string"
+    },
+    "TabContents": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "common-components.tab-content"
     }
   }
 }
